@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="What should your recipe contain..?"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="What should your recipe contain..?"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Pasta, tomatoes,cheese or Chocolate</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by
